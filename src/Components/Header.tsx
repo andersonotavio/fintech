@@ -1,5 +1,9 @@
+import DataRange from "./DataRange"
+
 const Header = () => {
-  return <div>SideNav</div>
+  return <div>
+    <DataRange />
+  </div>
 }
 
 export default Header
